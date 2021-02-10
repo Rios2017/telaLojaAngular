@@ -1,0 +1,32 @@
+.Diretivas
+ .Diretiva de Atributos/Attribut Directives e Diretiva Estrutural/Structural Directives:
+  .Diretiva de Atributo - focada em alterar a APARÊNCIA e o COMPORTAMENTO de um elemento, componente ou diretiva
+   elementos visuais (CSS/layout).
+  .Diretiva Estrutural - Altera o layout ADICIONANDO e REMOVENDO da DOM
+
+.Propert Binding
+ .Binding de Produto - Uma forma de fazer as ligações é usando um [] relacionando um produto
+ .Bindin de Evento - usando os () para apontar a string que foi definida par um metodo dentro do componente
+ .One Way Data Binding / Unica Direção - Quando vem um evente/alteração do TS para o HTML
+ .Two Way Data Binding / Duas Direções - Tudo oque for modificado no HTML vai auterar no TS e aoucontrario também é valido
+  [(ngModel)]
+
+.Angular Router
+ .O angular pega o camonho determinhado e faz uma troca de componentes
+
+.Angular Pipes
+ . Pipes - São procesamentos que são feitos encima de variaveis ex: O vencimento é {{ produto.vencimento | data }} usando o | para
+   formatar a data do produto. Os Pipes também podem receber parametros ex: O vencimento é {{ produto.preco | moeda/currency: 'BRL' }}
+   não se limintando somente a um parametro apenas. Também podemos ter uma cadei de Pipes 
+   ex: O vencimento é {{ produto.vencimento | data: 'fullDate' | uppercase }} 
+
+.Programação Reativa
+ .Reativa - É quando a programação fica de forma proativa procurando alguma coisa para processar
+.O Padrão Observer
+ .Observer - Padrão orientado a EVENTO. Os Observables por tras ele faz um encapisulamento dos observer. Só temos programação reativa
+  apartir do padrão Observer
+
+.Services
+ .Services - São classes que tem como principal objetivo ORGANIZAR e COMPARTILHAR métodos e dados entre COMPONENTES
+ .Injeção de Dependência - É um padrão no qual a calsse recebe as DEPENDÊNCIAS de uma FONTE EXTERNA ao invés de criar por conta própria.
+ Services são SINGLETONS dentro do escopo de um INJECTOR

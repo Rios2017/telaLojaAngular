@@ -1,0 +1,24 @@
+.nav-position {
+  top: 64px !important;
+  bottom: 0px !important;
+  transform: none !important;
+  visibility: visible !important;
+}
+
+.sidenav {
+  background-color: #3F51B5;
+  width: 200px;
+}
+
+.sidenav a {
+  color: #FFF;
+}
+
+.sidenav i {
+  padding-right: 10px;
+}
+
+.content {
+  padding: 16px;
+  background-color: #FFF;
+}
