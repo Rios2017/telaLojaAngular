@@ -10,7 +10,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class ProductDeleteComponent implements OnInit {
 
-  product: Product
+  product: Product | undefined
 
   constructor(
     private productService: ProductService, 
