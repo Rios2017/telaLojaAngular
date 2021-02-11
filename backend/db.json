@@ -19,6 +19,11 @@
       "name": "Geladeira",
       "price": "122.00",
       "id": 4
+    },
+    {
+      "name": "Camisa Azul",
+      "price": "152",
+      "id": 5
     }
   ]
 }
